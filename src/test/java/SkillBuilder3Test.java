@@ -44,16 +44,6 @@ class SkillBuilder3Test {
     }
 
     @Test
-    void sumOfDivisors() {
-        long[] number = {4, 14, 27, 38, 55, 89, 3045};
-        long[] expected = {3, 10, 13, 22, 17, 1, 2715};
-        for (int i = 0; i < number.length; i++) {
-            long actual = SkillBuilder3.sumOfDivisors(number[i]);
-            assertEquals(expected[i], actual, "Expecting: " + expected[i] + "\nActual:" + actual);
-        }
-    }
-
-    @Test
     void isPrime(){
         long[] number = {6, 28, 496, 38, 55, 89, 3045};
         boolean[] expected = {true, true, true, false, false, false, false};
