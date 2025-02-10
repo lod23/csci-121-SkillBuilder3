@@ -73,7 +73,8 @@ public class SkillBuilder3
         //sum += number;
         return sum;
     }
-    public static boolean isPerfect(long number){
+    public static boolean isPerfect(long number)
+    {
         return false;
     }
 
