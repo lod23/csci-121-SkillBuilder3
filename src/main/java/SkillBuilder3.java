@@ -42,7 +42,7 @@ public class SkillBuilder3
         int x = 0;
         String str = "";
         for (int i = radius-1; i > -radius; i--) {
-            x = (int)(Math.sqrt(Math.pow(radius, 2) - (Math.pow(1, 2))));
+            x = (int) (Math.sqrt(Math.pow(radius, 2) - (Math.pow(i, 2))));
             str += repeat(" ", radius-x);
             str += repeat("*", 2*x) + "\n";
         }
